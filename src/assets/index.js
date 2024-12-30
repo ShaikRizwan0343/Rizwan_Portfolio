@@ -36,6 +36,7 @@ import InnomickLogo from "./company/Innomick-logo.png";
 import BookThePlay from "./company/book-the-play.png";
 import nullclass from "./company/null-class.png";
 import countries from "./Api.png";
+import YeldamKitchenHome from "./YeldamKitchenHome.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -87,4 +88,5 @@ export {
   jobit,
   tripguide,
   logo1,
+  YeldamKitchenHome,
 };

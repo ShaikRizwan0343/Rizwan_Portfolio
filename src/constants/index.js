@@ -22,6 +22,7 @@ import {
   threejs,
   stackoverflowclone,
   Api,
+  YeldamKitchenHome,
 } from "../assets";
 
 export const navLinks = [
@@ -176,6 +177,31 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Yeldam Kitchen",
+    description:
+      "Built a food subscription platform for B2B and B2C markets with roles like Admin, Subscriber, User, and Delivery Personnel. Features include order placement, reports, attendance tracking, menu reviews, feedback, and subscription renewals. Integrated Razorpay for secure payments, ensuring a seamless user experience and efficient food ordering process",
+    tags: [
+      {
+        name: "ReactNative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: YeldamKitchenHome,
+    source_code_link: "",
+  },
+  {
     name: "Tappstr Web Application",
     description:
       "Tappstr offers a single platform for a variety of AI applications. It's user-friendly, simplifying the use of AI for business analytics, content creation, and more.With Tappstr Tokens, users pay for only the services they use, eliminating the need for multiple subscriptions. It ensures data safety and GDPR compliance.Designed for individuals, small businesses, and larger corporations, Tappstr provides an accessible way to explore and apply diverse AI systems.",
@@ -206,6 +232,10 @@ const projects = [
       "Developed and launched a mobile application designed to streamline the process of booking sports facilities and fitness centers. BookThePlay enables users to discover and reserve nearby venues, including cricket grounds, football turfs, badminton, pickleball, and tennis courts, with ease.",
     tags: [
       {
+        name: "ReactNative",
+        color: "blue-text-gradient",
+      },
+      {
         name: "react",
         color: "blue-text-gradient",
       },
@@ -224,27 +254,6 @@ const projects = [
     ],
     image: BookThePlay,
     source_code_link: "https://web.pickleballclub.co.in/",
-  },
-  {
-    name: "Counteries",
-    description:
-      "Proficient in integrating multiple APIs using React JS and JavaScript to create dynamic and responsive web applications. Some of them",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Api,
-    source_code_link: "https://dazzling-pixie-5d6397.netlify.app/",
   },
 ];
 

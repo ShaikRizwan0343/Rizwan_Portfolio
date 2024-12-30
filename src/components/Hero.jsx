@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
 import { useTypewriter } from "react-simple-typewriter";
+import DownloadResume from "./component/DownloadPDF";
 
 const Hero = () => {
   const [typewriter] = useTypewriter({
@@ -31,6 +32,9 @@ const Hero = () => {
             applications <br className="sm:block hidden" />
             and mobile apps using the MERN stack.
           </p>
+          <div className="mt-5">
+            <DownloadResume />
+          </div>
         </div>
       </div>
       <div
