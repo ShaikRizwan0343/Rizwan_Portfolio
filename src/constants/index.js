@@ -23,6 +23,16 @@ import {
   stackoverflowclone,
   Api,
   YeldamKitchenHome,
+  Hexagon,
+  Krot,
+  Vichara,
+  AToZee,
+  Zaps,
+  Detente,
+  blazor,
+  kotlinJava,
+  swift,
+  sql,
 } from "../assets";
 
 export const navLinks = [
@@ -46,14 +56,27 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Web Developer",
+    title: "Full Stack .NET Developer",
     icon: web,
+  },
+  {
+    title: "Xamarin & .NET MAUI Developer",
+    icon: mobile,
+  },
+  {
+    title: "iOS & Android Developer",
+    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
+  {
+    title: "Blazor & Web App Developer",
+    icon: web,
+  },
 ];
+
 
 const technologies = [
   {
@@ -73,24 +96,32 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Blazor",
+    icon: blazor,
+  },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "Kotlin-Java",
+    icon: kotlinJava,
+  },
+  {
+    name: "Swift",
+    icon: swift,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
+    name: "SQL",
+    icon: sql,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "git",
@@ -103,47 +134,94 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "React.js Developer",
-  //   company_name: "Starbucks",
-  //   icon: starbucks,
-  //   iconBg: "#383E56",
-  //   date: "March 2020 - April 2021",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
   {
-    title: "Sr.React Native Developer",
-    company_name: "Wallero Technologies Pvt Ltd.",
-    icon: WalleroLogo,
+    title: "Technical Lead",
+    company_name: "Hexagon Capability Center India (HCCI)",
+    icon: Hexagon,
     iconBg: "#E6DEDD",
-    date: "Nov 2023 - Present",
+    date: "September 2024 - Present",
     points: [
-      "Lead a team of 5 developers, ensuring high-quality deliverables through code reviews and mentorship. Design scalable project architecture and managed end-to-end project setup and Delivered Android/iOS builds and releases with Firebase integration for analytics and push notifications.Trained team members and optimized workflows for efficient development.",
+      "Migrating a Xamarin app to .NET MAUI.",
+      "Fixing MAUI-related issues and upgrading dependencies to the latest .NET version.",
+      "Documenting newly implemented features.",
+      "Leading the team and managing release operations.",
+      "Resolving Windows-specific issues post-migration and overseeing app releases on the stores.",
     ],
   },
   {
-    title: "Jr.React-Native Developer",
-    company_name: "Webelight Solutions Pvt Ltd.",
-    icon: WebelightLogo,
+    title: "Senior Software Lead",
+    company_name: "KR OTIS IT Solutions, Hyderabad",
+    icon: Krot,
     iconBg: "#383E56",
-    date: "Nov 2022 - Nov 2023",
+    date: "December 2023 - September 2024",
     points: [
-      "Worked extensively on React Native, React.js, and Next.js for web and mobile application development.Implemented state management using Redux and integrated CodePush for seamless updates. Built and maintained CI/CD pipelines and implemented flavor schemas for environment-specific builds. Configured push notifications and integrated Node.js services for backend support.",
+      "Contracted by Hexagon to migrate their core project to .NET MAUI.",
+      "Upgraded Syncfusion plugins to MAUI-supported versions.",
+      "Updated reference projects to the latest .NET framework and resolved compatibility issues.",
+      "Implemented new features using handlers and updated custom renderers.",
+      "Fixed critical issues and maintained existing workflows.",
     ],
   },
   {
-    title: "React-Native Developer",
-    company_name: "Innomick Technology Pvt Ltd.",
+    title: "Technical Mobile Lead",
+    company_name: "Vichara Technology (India) Pvt. Ltd, Gurgaon",
+    icon: Vichara,
+    iconBg: "#E6DEDD",
+    date: "November 2022 - December 2023",
+    points: [
+      "Worked closely with clients to implement requirements.",
+      "Integrated native Android SDKs, including ECG devices and NFCs.",
+      "Managed Android libraries for customer-specific customization.",
+      "Researched and built POCs for feature feasibility.",
+      "Maintained and enhanced telemedicine applications for Android and iOS.",
+    ],
+  },
+  {
+    title: "Senior Mobile Developer",
+    company_name: "Innomick Technologies Pvt. Ltd, Jubilee Hills",
     icon: InnomickLogo,
     iconBg: "#E6DEDD",
-    date: "Mar 2022 - October 2023",
+    date: "February 2019 - November 2022",
     points: [
-      "Gained hands-on experience in navigation, pixel-perfect Ul development, and API integration. Worked on designing end-to-end app flows and setting up scalable folder structures. Focused on improving code quality and integrating third-party packages. Configured and implemented Firebase for app functionality and analytics",
+      "Developed international products with client-driven features.",
+      "Expertise in audio players, third-party SDKs, biometrics, and automotive platforms.",
+      "Led and mentored teams, ensuring timely Agile deliveries.",
+      "Transitioned from Xamarin to .NET MAUI and integrated Blazor for shared code.",
+      "Adapted to new technologies, including Xamarin Native, Forms, and React Native.",
+    ],
+  },
+  {
+    title: "Mobile Developer",
+    company_name: "AtoZee Solutions, Toli Chowki",
+    icon: AToZee,
+    iconBg: "#383E56",
+    date: "September 2018 - January 2019",
+    points: [
+      "Developed and maintained bilingual mobile applications using Xamarin Forms.",
+      "Implemented the latest Xamarin features in existing apps.",
+      "Managed the mobile app publishing process.",
+    ],
+  },
+  {
+    title: "Mobile & Web Developer",
+    company_name: "ZAPS Marketing Pvt. Ltd., Banjara Hills",
+    icon: Zaps,
+    iconBg: "#383E56",
+    date: "May 2017 - August 2018",
+    points: [
+      "Led projects, supporting existing applications and developing new mobile apps.",
+      "Expert in troubleshooting OS-related issues for Android applications.",
+    ],
+  },
+  {
+    title: "Junior Android Developer",
+    company_name: "Detente Technology Pvt. Ltd., Gachibowli",
+    icon: Detente,
+    iconBg: "#383E56",
+    date: "January 2017 - March 2017",
+    points: [
+      "Developed Android applications using Android Studio.",
+      "Created user-friendly UIs with widgets like dialogs, layouts, and buttons.",
     ],
   },
 ];

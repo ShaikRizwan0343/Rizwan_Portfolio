@@ -7,7 +7,7 @@ import DownloadResume from "./component/DownloadPDF";
 
 const Hero = () => {
   const [typewriter] = useTypewriter({
-    words: ["MERN Stack Mobile & Web Developer", "React Native Developer"],
+    words: ["Xamarin/.Net MAUI", "React Native Developer"],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 40,
@@ -24,13 +24,14 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF] typing">Shaik Rizwan</span>
+            Hi, I'm{" "}
+            <span className="text-[#915EFF] typing">Mohammed Dastagir</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a <span className="text-[#915EFF] typing">{typewriter}</span>{" "}
-            <br className="sm:block hidden" /> with experience in building web
-            applications <br className="sm:block hidden" />
-            and mobile apps using the MERN stack.
+            <br className="sm:block hidden" /> with experience in building
+            Android, iOS and windows applications using .NET MAUI, Xamarin and
+            C#, with expertise in full-cycle mobile app development.
           </p>
           <div className="mt-5">
             <DownloadResume />

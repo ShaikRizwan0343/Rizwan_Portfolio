@@ -22,6 +22,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import csharp from "./tech/csharp.png";
+import blazor from "./tech/blazor.png";
+import kotlinJava from "./tech/kotlin-java.png";
+import swift from "./tech/Swift.png";
+import sql from "./tech/sql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -35,8 +39,14 @@ import TappstrLogo from "./company/tappstr-logo.png";
 import InnomickLogo from "./company/Innomick-logo.png";
 import BookThePlay from "./company/book-the-play.png";
 import nullclass from "./company/null-class.png";
+import Hexagon from './company/Hexagon.png'
 import countries from "./Api.png";
 import YeldamKitchenHome from "./YeldamKitchenHome.png";
+import Krot from './company/KR_OT.png';
+import Vichara from './company/Vichara.png'
+import AToZee from './company/AToZee.png'
+import Zaps from './company/Zaps.png'
+import Detente from './company/Detente.jpg'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -50,10 +60,20 @@ export {
   Api,
   NotesApp,
   innomatics,
+  kotlinJava,
+  AToZee,
   Neoteq,
   WalleroLogo,
+  swift,
   WebelightLogo,
+  Detente,
+  Zaps,
+  Vichara,
+  sql,
+  blazor,
   InnomickLogo,
+  Hexagon,
+  Krot,
   BookThePlay,
   TappstrLogo,
   nullclass,

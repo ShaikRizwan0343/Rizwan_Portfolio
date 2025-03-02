@@ -4,8 +4,8 @@ const DownloadResume = () => {
   return (
     <div className="z-50 absolute">
       <a
-        href="/ShaikRizwanMERNResume.pdf" // Ensure the path is relative to the public folder
-        download="ShaikRizwan_ReactNative_MERN_Resume" // Optional: rename the file when downloaded
+        href="/DastagirResume.pdf" // Ensure the path is relative to the public folder
+        download="Dastagir_Resume.pdf" // Optional: rename the file when downloaded
         className="mt-5 py-2 px-6 bg-[#915EFF] text-white font-bold text-lg rounded-md shadow-lg hover:bg-[#7a4ecf] transition duration-300"
       >
         Download Resume

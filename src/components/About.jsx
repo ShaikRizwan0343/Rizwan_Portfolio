@@ -47,23 +47,32 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Hi, I am a Software developer in MERN Stack and React Native having
-        nearly 4 years of expertise in JavaScript technologies technologies,
-        including React Native, Redux, React.js, and TypeScript. Proficient in
-        front-end development, RESTful services, and user validation forms.
-        Skilled in integrating Google Maps, payment gateways, push
-        notifications, and dynamic linking. Experienced in accessing native
-        components (Camera, Microphone), Firebase integration, and app
-        publishing on Google Play Store and Apple Store. Knowledgeable in SEO
-        techniques and app analytics with strong problem-solving skills..
+        I am a results-driven software developer with 8+ years of experience in
+        designing, developing, and optimizing Android, iOS, and Windows
+        applications. Skilled in .NET MAUI, Xamarin, React Native, and Blazor,
+        with expertise in full-cycle mobile app development. Passionate about
+        delivering high-performance, scalable solutions and seamless user
+        experiences.
       </motion.p>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I have also worked extensively using Agile and Scrum methodologies with
-        Azure DevOps to ensure efficient project management and collaboration,
-        delivering high-quality software solutions.
+        I have led teams and managed release operations, migrating legacy
+        applications to modern frameworks like .NET MAUI. My experience includes
+        working with Xamarin.Forms, Kotlin, Swift, and C#, integrating native
+        SDKs, and handling third-party services. I specialize in optimizing
+        workflows, resolving platform-specific issues, and ensuring smooth
+        deployments to app stores.
+      </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
+        Throughout my career, I have worked across multiple industries,
+        collaborating with clients to build innovative mobile solutions. My
+        technical expertise spans database management, cloud integrations, and
+        agile methodologies, ensuring high-quality software delivery.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center items-center">
